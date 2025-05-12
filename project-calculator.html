@@ -4,10 +4,52 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Project Quote Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="global.js"></script>
+  <script defer src="calculator.js"></script>
+  <link rel="stylesheet" href="assets/style/global.css" />
+<link rel="stylesheet" href="assets/style/calcualtor.css" />
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project-calculator.html">Project Calculator</a></li>
+      </ul>
+      <button class="dark-mode-toggle" aria-label="Toggle Dark Mode">☾</button>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h1>Project Quote Calculator</h1>
+      <form id="quote-form">
+        <label for="type">Project Type:</label>
+        <select id="type">
+          <option>Business Site</option>
+          <option>Online Store</option>
+          <option>Blog</option>
+        </select>
+
+        <label for="pages">Number of Pages:</label>
+        <input type="number" id="pages" min="1" max="10" />
+
+        <label>Custom Design Needed?</label>
+        <label><input type="radio" name="design" value="yes" /> Yes</label>
+        <label><input type="radio" name="design" value="no" /> No</label>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Calculate Price</button>
+      </form>
+      <p id="price-output"></p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Tali Rotfort. All rights reserved.</p>
+  </footer>
 </body>
 </html>

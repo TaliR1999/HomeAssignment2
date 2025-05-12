@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="assets/style/global.css" />
+<link rel="stylesheet" href="assets/style/about.css" />
+  <script defer src="services/global.js"></script>
   <title>About Me</title>
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <button class="menu-toggle" aria-label="Toggle Menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project-calculator.html">Project Calculator</a></li>
+      </ul>
+      <button class="dark-mode-toggle" aria-label="Toggle Dark Mode">🌓</button>
+    </nav>
+  </header>
+  <main>
+  <section class="about">
+  <div class="about-text">
+    <h2>About Me</h2>
+    <p>👋 I'm Tali Rotfort, a Business Administration studen from Herzliya. I was born in Haifa and moved to Herzliya when I started my academic journey.</p>
+    <p>🎓 I'm currently studying at Ruppin Academic Center. Beyond my studies, I love spending time by the sea, watching sunsets,listening to music, and journaling.</p>
+    <p>🌍 Before beginning my studies, I took time to travel and explore the world. I backpacked through South America and Thailand, met incredible people, experienced new cultures, and learned so much about myself along the way.</p>
+  </div>
+</section>
+  </main>
+   <section class="gallery">
+  <h2>My Travel Gallery</h2>
+  <div class="gallery-grid">
+    <img src="assets/imgs/PhotoAbout1.jpg" alt="Travel photo 1">
+    <img src="assets/imgs/PhotoAbout2.jpg" alt="Travel photo 2">
+    <img src="assets/imgs/PhotoAbout3.jpg" alt="Travel photo 3">
+    <img src="assets/imgs/PhotoAbout4.jpg" alt="Travel photo 4">
+  </div>
+</section>
+  <footer>
+    <p>© 2025 Tali Rotfort. All rights reserved.</p>
+  </footer>
 </body>
 </html>

@@ -4,10 +4,53 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/style/global.css" />
+<link  rel="stylesheet" href="assets/style/home.css">
+  <script defer src="services/global.js"></script>
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="project-calculator.html">Project Calculator</a></li>
+      </ul>
+      <button class="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button>
+    </nav>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="assets/imgs/photo. main.jpg" alt="Profile Picture" class="profile-image" />
+      <div class="hero-text">
+  <h1>Hi, I'm Tali Rotfort</h1>
+  <a href="assets/resume.pdf" target="_blank" class="btn">
+    <p>Business Administration student in Ruppin Academic Center </p>
+    <span>📄</span> View Resume
+  </a>
+</div>
+    </section>
+
+     <section class="cta">
+      <div class="column">
+        <h2>Contact</h2>
+        <p> 📧 Email: <a href="mailto:tarotfort@gmail.com">tarotfort@gmail.com</a></p>
+        <p> 📱 Phone: <a href="tel:+972526096420">+972526096420</a></p>
+        <p><a href="https://www.linkedin.com/in/yourprofile" target="_blank"> 🔗 LinkedIn</a></p>
+      </div>
+       <div class="divider"></div>
+         <div class="column project">
+        <h2>Featured Project</h2>
+        <img src="assets/imgs/photo.gelatopage.jpg" alt="Project Screenshot" />
+        <p>A page about gelato 🍨</p>
+        <a href="#">Visit Project</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Tali Rotfort. All rights reserved.</p>
+  </footer>
 </body>
 </html>

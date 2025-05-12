@@ -1,0 +1,31 @@
+
+@import url('./variables.css');
+
+.skills {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: var(--spacing);
+  background-color: var(--color-1);
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.skills h1 {
+  font-size: var(--heading-font-size);
+  margin-bottom: var(--spacing);
+  color: var(--primary-color);
+}
+
+.skills ul {
+  list-style: square;
+  padding-left: 2rem;
+  background-color: var(--color-2);
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+  color: var(--text-color);
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+  
