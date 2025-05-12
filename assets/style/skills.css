@@ -1,31 +1,50 @@
-
 @import url('./variables.css');
 
 .skills {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: var(--spacing);
-  background-color: var(--color-1);
-  border-radius: var(--border-radius);
-  text-align: center;
+	background-color: var(--color-2);
+	border-radius: var(--border-radius);
+	max-width: var(--max-width);
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.8;
+	font-size: 1.1rem;
+	color: var(--text-color);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+	padding: 3rem 2rem;
+	margin-top: 120px;
+	margin-bottom: 120px;
 }
 
 .skills h1 {
-  font-size: var(--heading-font-size);
-  margin-bottom: var(--spacing);
-  color: var(--primary-color);
+	color: var(--primary-color);
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+	text-align: center;
 }
 
 .skills ul {
-  list-style: square;
-  padding-left: 2rem;
-  background-color: var(--color-2);
-  padding: var(--spacing);
-  border-radius: var(--border-radius);
-  color: var(--text-color);
-  text-align: left;
-  max-width: 600px;
-  margin: auto;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-  
+.skills li {
+	margin-bottom: 1.2rem;
+	font-weight: 400;
+	text-align: justify;
+	padding-left: 1.5rem;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.skills li::before {
+	content: '•';
+	color: var(--primary-color);
+	position: absolute;
+	left: 0;
+	font-size: 1.5rem;
+	line-height: 1;
+	top: 50%;
+	transform: translateY(-50%);
+}
