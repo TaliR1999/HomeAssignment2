@@ -1,23 +1,4 @@
-/* @import url('./variables.css'); */
 
-:root {
-	--color-1: #fff7e5;
-	--color-2: #f1e3e0;
-	--color-3: #b887a4;
-	--color-4: #efe2df;
-	--color-5: #faf2e1;
-
-	--bg-color: var(--color-1);
-	--text-color: #2a2a2a;
-	--primary-color: var(--color-3);
-	--accent-color: var(--color-2);
-
-	--border-radius: 8px;
-	--spacing: 1rem;
-	--base-font-size: 16px;
-	--heading-font-size: 2rem;
-	--max-width: 1200px;
-}
 
 html,
 body {
@@ -44,6 +25,37 @@ body.dark-mode {
 	--accent-color: #a594a8;
 	background-color: var(--bg-color);
 	color: var(--text-color);
+}
+
+body.dark-mode .hero{
+
+	background-color: #887195;
+}
+
+body.dark-mode .cta {
+	
+	background-color: #887195;
+
+}
+
+body.dark-mode .project {
+
+	background-color: #887195;
+	
+}
+body.dark-mode .about{
+
+	background-color: #887195;
+}
+
+body.dark-mode .skills{
+
+	background-color: #887195;
+}
+
+body.dark-mode form {
+	
+	background-color: #887195;
 }
 
 header {
